@@ -225,6 +225,7 @@ In order to avoid false positives when there is movement or occlusions like the 
 
 The following video shows a complete game example using the real-time chess move detection with InceptionV3 model. As can be seen in the video, the model is able to predict the moves played in real-time with a good accuracy despite the low quality of the camera, lightning conditions and constant occlusions like the hand of the player when making the move. When running the script, the available camera devices appear and after selecting the desired camera, the user needs to select the 4 corners of the chessboard in the camera frame. After this, the real-time chess move detection starts and the predicted position is displayed on the screen along with the video stream from the camera.
 
+[inception_real_time_detection.webm](https://github.com/user-attachments/assets/ad97556d-5e13-4600-b3a3-c50fd417e95b)
 
 
 ## Real-Time Chess Move Detection using YOLOv8
@@ -270,6 +271,7 @@ Above the chess move detection class is the `RealTimeChessCamera` class which is
 
 When running the script, the available camera devices appear and after selecting the desired camera, the user needs to select the 4 corners of the chessboard in the camera frame. After this, the real-time chess move detection starts and the predicted position is displayed on the screen along with the video stream from the camera and the detected bounding boxes of the pieces in the chessboard image. The result is a complete real-time chess move detection despite some misclassifications betweeen queen and bishop in some cases.
 
+[yolo_real_time_detection.webm](https://github.com/user-attachments/assets/3c3491de-9501-4870-80bd-fbcd924fcc3b)
 
 ## Acknowledgements
 - [1] Rob Mulla, https://github.com/RobMulla/chessboard-vision, 2022.
