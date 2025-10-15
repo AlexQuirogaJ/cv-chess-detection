@@ -1,0 +1,13 @@
+data/
+!data/piece_images/
+
+models/
+runs/
+src/yolob8s.pt
+.env
+
+# Ignore scratch notebooks
+scratch*.ipynb
+playground*.ipynb
+
+.DS_Store
